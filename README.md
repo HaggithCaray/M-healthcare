@@ -53,12 +53,12 @@ Open XAMPP Control Panel and start **MySQL** and **Apache**.
 Open your browser and go to `http://localhost/phpmyadmin`. Then run this SQL:
 
 ```sql
-CREATE DATABASE healthcare_db;
+CREATE DATABASE healthcare_base_db;
 ```
 
 Or use the command line:
 ```powershell
-mysql -u root -e "CREATE DATABASE healthcare_db;"
+mysql -u root -e "CREATE DATABASE healthcare_base_db;"
 ```
 
 ### Step 4: Install PHP dependencies
@@ -82,7 +82,7 @@ Open `.env` and make sure these values are set:
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=healthcare_db
+DB_DATABASE=healthcare_base_db
 DB_USERNAME=root
 DB_PASSWORD=
 ```
