@@ -27,6 +27,16 @@ A web-based health monitoring system designed for barangay health workers to man
 3. **Node.js** (v20+) and **NPM** — https://nodejs.org
 4. **Composer** — https://getcomposer.org
 
+### Step 0: Add PHP to PATH (one-time setup)
+
+Run this **once** as Administrator so `php` works in any terminal:
+
+```powershell
+[System.Environment]::SetEnvironmentVariable("Path", [System.Environment]::GetEnvironmentVariable("Path", "User") + ";C:\xampp\php", "User")
+```
+
+Then close and reopen your terminal.
+
 ### Step 1: Clone the repo
 
 ```bash
