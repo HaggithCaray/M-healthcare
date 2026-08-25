@@ -203,6 +203,4 @@ net start mysql
 ### libssh2_crypto_engine error
 Copy the DLLs as shown in Step 8 of the PHP 8.4 upgrade above.
 
-## Related
 
-- Full version (advanced): https://github.com/HaggithCaray/maternal-healthcare
